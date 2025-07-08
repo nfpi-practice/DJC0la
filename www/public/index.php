@@ -1,1 +1,4 @@
-<h1>Hello World!</h1>
+<?php
+header("Location: html_task/index.html");
+exit();
+?>

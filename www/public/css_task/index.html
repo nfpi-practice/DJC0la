@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Чайхана</title> 
+</head>
+
+<header>
+    <img src="image/logo.jpg" alt="лого" width="200">
+    <nav class="main-navigation">
+        <a href="#field1" class="navigation-link">Регистрация</a>
+        <a href="#field2" class="navigation-link">Меню</a>
+        <a href="#field3" class="navigation-link">Контакты</a>
+    </nav>   
+</header>
+<main>
+    <section id="#field1">
+        <h2>Регистрация на чаепитие</h2>
+        <p>Вы можете записаться на чаепитие для этого зарегистрируйтесь по форме ниже, будем вас ждать!</p>
+        <form>
+            <div class="registration">
+                <input type="email" title="email" placeholder="Электронная почта"><br>
+                <input type="password" title="password" placeholder="Пароль">
+            </div>
+            <div>
+                <p>Будeте есть:</p>
+                <input type="radio" id="here" name="here" value="here">
+                <label for="here">Здесь</label>
+
+                <input type="radio" id="with_you" name="with_you" value="with_you">
+                <label for="with_you">С собой</label>
+            </div>
+            <label for="person">Количество гостей</label>
+            <select name="select" id="person">
+                <option value="persone1">1</option>
+                <option value="persone2">2</option>
+                <option value="persone3">3</option>
+            </select> 
+            <div>
+                <label for="checkbox">Напечатать чек</label>
+                <input type="checkbox" title="чек" id="checkbox">
+            </div> 
+            <button type="button" class="add-btn">Отправить</button>
+        </form>
+    </section>
+    <section id="#field2">
+        <h2>Меню</h2>
+        <p>Здесь представлены наши позиции:</p>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>Позиция</td>
+                    <td>Цена</td>
+                    <td>Вес</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>чай черный</td>
+                    <td>200р</td>
+                    <td>0.5л</td>
+                </tr>
+                <tr>
+                    <td>чай зеленый</td>
+                    <td>180р</td>
+                    <td>0.5л</td>
+                </tr>
+                <tr>
+                    <td>самса</td>
+                    <td>80р</td>
+                    <td>250г</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <section id="#field3">
+            <h2>Контактная информация</h2>
+            <i>Чайхана на связи 24/7</i><br>
+            <a href="https://vk.com/djcola" target="_blank">VK</a><br>
+            <a href="https://t.me/DJCola228" target="_blank">Telegram</a><br>
+        </section>
+    </footer>
+</main>

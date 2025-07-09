@@ -1,4 +1,4 @@
 <?php
-header("Location: html_task/index.html");
+header("Location: index.html");
 exit();
 ?>
